@@ -44,28 +44,3 @@ const resultado = computed(() => {
   return ''
 })
 </script>
-<style scoped>
-.calculator {
-  max-width: 400px;
-  margin: 30px auto;
-  padding: 20px;
-  text-align: center;
-  border-radius: 10px;
-  background: #f4f4f4;
-  box-shadow: 0 0 10px rgba(0,0,0,0.1);
-}
-.inputs {
-  display: flex;
-  gap: 10px;
-  margin-bottom: 15px;
-}
-input, select {
-  flex: 1;
-  padding: 8px;
-  font-size: 16px;
-}
-</style>
-
-
-
-
